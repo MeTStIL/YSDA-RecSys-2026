@@ -5,6 +5,8 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
+import numpy as np
+
 
 def _find_single_linear(
     module: nn.Module, in_features: int, out_features: int
